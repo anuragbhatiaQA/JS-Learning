@@ -1,0 +1,29 @@
+let score ="Anurag"
+// score ="33abc", type of score - String, type of valueInNumber - Number, but the value of score will be NaN
+// score ="33", type of score - String, type of valueInNumber - number,but the value of score will be 33
+// score =33, type of score - number, type of valueInNumber - number, but the value of score will be 33
+// score =null, type of score - Object, type of valueInNumber - number, but the value of score will be 0
+// score =undefined, type of score - undefined, type of valueInNumber - number, but the value of score will be NaN
+// score =true, type of score - boolean, type of valueInNumber - number, but the value of score will be 1
+// score =false, type of score - boolean, type of valueInNumber - number, but the value of score will be 0
+// score ="Anurag", type of score - String, type of valueInNumber - number, but the value of score will be NaN
+console.log(typeof score);
+console.log(typeof (score));
+let valueInNumber = Number(score)
+console.log(typeof valueInNumber);
+console.log(valueInNumber); 
+
+let isLoggedIn = "abc"
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+console.log(typeof booleanIsLoggedIn)
+console.log(booleanIsLoggedIn)
+// isLoggedIn = 1, type of isLoggedIn - boolean, value of isLoggedIn - true
+// isLoggedIn = 0, type of isLoggedIn - boolean, value of isLoggedIn - false
+// isLoggedIn = "", type of isLoggedIn - boolean, value of isLoggedIn - false
+// isLoggedIn = "abc", type of isLoggedIn - boolean, value of isLoggedIn - true
+
+let someNumber = 33
+let stringNumber = String(someNumber)
+console.log(stringNumber)
+console.log(typeof stringNumber)
+// someNumber = 33, type of someNumber - string, value of isLoggedIn - 33
